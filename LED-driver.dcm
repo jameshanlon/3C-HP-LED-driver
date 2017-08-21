@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RJ45
+D RJ45 connector with shield
+K RJ45
+$ENDCMP
+#
+$CMP RJ45_8
+D RJ45 connector with shield
+K RJ45
+$ENDCMP
+#
+#End Doc Library
