@@ -683,16 +683,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 5990900D) (tstamp 59909001)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 59A2A7FE) (tstamp 59909001)
     (at 176.276 62.23 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /597F7F33)
     (attr smd)
-    (fp_text reference R1 (at 0 -2.1 270) (layer F.SilkS)
+    (fp_text reference R1 (at 0 -2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value R_Small (at 0 2.1 270) (layer F.Fab) hide
+    (fp_text value 1.4K (at 0 -2.159 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.625) (end -1 -0.625) (layer F.Fab) (width 0.1))
@@ -716,16 +716,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 59909009) (tstamp 59909006)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 59A2A7E5) (tstamp 59909006)
     (at 158.75 62.484 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /597F76C7)
     (attr smd)
-    (fp_text reference R2 (at 0 -2.1 270) (layer F.SilkS)
+    (fp_text reference R2 (at 0 -2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value R_Small (at 0 2.1 270) (layer F.Fab) hide
+    (fp_text value 1.4K (at 0 -2.159 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.625) (end -1 -0.625) (layer F.Fab) (width 0.1))
@@ -749,16 +749,16 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 59908FC7) (tstamp 5990900B)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 59A2A7AD) (tstamp 5990900B)
     (at 141.478 62.484 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /597F805D)
     (attr smd)
-    (fp_text reference R3 (at 0 -2.1 270) (layer F.SilkS)
+    (fp_text reference R3 (at 0 -2.1 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value R_Small (at 0 2.1 270) (layer F.Fab) hide
+    (fp_text value 1.4K (at 0 -2.159 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.625) (end -1 -0.625) (layer F.Fab) (width 0.1))
@@ -1050,7 +1050,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 599D3104) (tstamp 599D2444)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 59A2A8CA) (tstamp 599D2444)
     (at 134.366 82.804 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
@@ -1059,7 +1059,7 @@
     (fp_text reference R4 (at 0 -2.032 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 510R (at 0 -2.032 180) (layer F.SilkS)
+    (fp_text value 511 (at 0 -2.032 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.625) (end -1 -0.625) (layer F.Fab) (width 0.1))
@@ -1083,7 +1083,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 599D3110) (tstamp 599D2454)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 59A2A85F) (tstamp 599D2454)
     (at 134.493 74.549 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
@@ -1092,7 +1092,7 @@
     (fp_text reference R5 (at 0 -2.032 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 510R (at 0 -2.032 180) (layer F.SilkS)
+    (fp_text value 511 (at 0 -2.032 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.625) (end -1 -0.625) (layer F.Fab) (width 0.1))
@@ -1116,7 +1116,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 599D314C) (tstamp 599D2464)
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 59A2A868) (tstamp 599D2464)
     (at 150.368 101.219)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
@@ -1125,7 +1125,7 @@
     (fp_text reference R6 (at 0 -2.1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 510R (at 0 -2.032) (layer F.SilkS)
+    (fp_text value 511 (at 0 -2.032) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0.625) (end -1 -0.625) (layer F.Fab) (width 0.1))
