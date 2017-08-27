@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/jamieh/LED-diver/LED-driver.sch)
-    (date "Wednesday, 23 August 2017 'amt' 08:42:14")
+    (date "Sunday, 27 August 2017 'amt' 10:57:12")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -365,10 +365,10 @@
   (libraries
     (library (logical conn)
       (uri "/Library/Application Support/kicad/library/conn.lib"))
-    (library (logical LED-driver)
-      (uri /Users/jamieh/LED-diver/LED-driver.lib))
     (library (logical device)
-      (uri "/Library/Application Support/kicad/library/device.lib")))
+      (uri "/Library/Application Support/kicad/library/device.lib"))
+    (library (logical LED-driver)
+      (uri /Users/jamieh/LED-diver/LED-driver.lib)))
   (nets
     (net (code 1) (name "Net-(R1-Pad1)")
       (node (ref U2) (pin 4))
