@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/jamieh/LED-diver/LED-driver.sch</source>
-    <date>Wednesday, 23 August 2017 'amt' 07:19:55</date>
+    <date>Sunday, 03 September 2017 'amt' 10:48:36</date>
     <tool>Eeschema 4.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -41,21 +41,21 @@
       <tstamp>597F7253</tstamp>
     </comp>
     <comp ref="0.1uF3">
-      <value>CP</value>
+      <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <libsource lib="device" part="CP1_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>597F7517</tstamp>
     </comp>
     <comp ref="R2">
-      <value>R_Small</value>
+      <value>1.4K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>597F76C7</tstamp>
     </comp>
     <comp ref="0.1uF2">
-      <value>CP</value>
+      <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <libsource lib="device" part="CP1_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -76,14 +76,14 @@
       <tstamp>597F7F17</tstamp>
     </comp>
     <comp ref="0.1uF1">
-      <value>CP</value>
+      <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <libsource lib="device" part="CP1_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>597F7F27</tstamp>
     </comp>
     <comp ref="R1">
-      <value>R_Small</value>
+      <value>1.4K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -104,21 +104,21 @@
       <tstamp>597F8043</tstamp>
     </comp>
     <comp ref="0.1uF4">
-      <value>CP</value>
+      <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <libsource lib="device" part="CP1_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>597F8051</tstamp>
     </comp>
     <comp ref="R3">
-      <value>R_Small</value>
+      <value>1.4K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>597F805D</tstamp>
     </comp>
     <comp ref="0.1uF5">
-      <value>CP</value>
+      <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <libsource lib="device" part="CP1_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -146,14 +146,14 @@
       <tstamp>597F9569</tstamp>
     </comp>
     <comp ref="JP1">
-      <value>Jumper_NC_Small</value>
+      <value>MCLR</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
       <libsource lib="device" part="Jumper_NC_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59899747</tstamp>
     </comp>
-    <comp ref="10K1">
-      <value>R</value>
+    <comp ref="R7">
+      <value>10K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -173,15 +173,15 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59899FF0</tstamp>
     </comp>
-    <comp ref="510R3">
-      <value>R</value>
+    <comp ref="R6">
+      <value>511</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5989A1D3</tstamp>
     </comp>
-    <comp ref="510R1">
-      <value>R</value>
+    <comp ref="R4">
+      <value>511</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -195,21 +195,21 @@
       <tstamp>5989B731</tstamp>
     </comp>
     <comp ref="JP2">
-      <value>Jumper_NO_Small</value>
+      <value>RX</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
       <libsource lib="device" part="Jumper_NO_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59898D20</tstamp>
     </comp>
     <comp ref="Q1">
-      <value>Q_NMOS_DGS</value>
+      <value>2N7002</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
       <libsource lib="device" part="Q_NMOS_DGS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5995F932</tstamp>
     </comp>
-    <comp ref="510R2">
-      <value>R</value>
+    <comp ref="R5">
+      <value>511</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -223,35 +223,35 @@
       <tstamp>59960D30</tstamp>
     </comp>
     <comp ref="Q2">
-      <value>Q_NMOS_DGS</value>
+      <value>2N7002</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
       <libsource lib="device" part="Q_NMOS_DGS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59960D3D</tstamp>
     </comp>
     <comp ref="JP3">
-      <value>Jumper_NO_Small</value>
+      <value>TX</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
       <libsource lib="device" part="Jumper_NO_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59961CEF</tstamp>
     </comp>
     <comp ref="Q3">
-      <value>Q_NMOS_DGS</value>
+      <value>BSS123</value>
       <footprint>TO_SOT_Packages_SMD:SOT-23_Handsoldering</footprint>
       <libsource lib="device" part="Q_NMOS_DGS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59961F66</tstamp>
     </comp>
-    <comp ref="10K6">
-      <value>R</value>
+    <comp ref="R9">
+      <value>10K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59962180</tstamp>
     </comp>
-    <comp ref="10K5">
-      <value>R</value>
+    <comp ref="R8">
+      <value>10K</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -499,89 +499,89 @@
       <node ref="U5" pin="2"/>
       <node ref="0.1uF1" pin="2"/>
       <node ref="J1" pin="2"/>
-      <node ref="510R1" pin="2"/>
+      <node ref="R4" pin="2"/>
       <node ref="J2" pin="1"/>
       <node ref="0.1uF5" pin="2"/>
-      <node ref="10K1" pin="1"/>
+      <node ref="R7" pin="1"/>
       <node ref="U3" pin="8"/>
       <node ref="J3" pin="2"/>
       <node ref="U4" pin="2"/>
       <node ref="U1" pin="1"/>
       <node ref="U2" pin="2"/>
       <node ref="0.1uF2" pin="2"/>
-      <node ref="510R3" pin="1"/>
+      <node ref="R6" pin="1"/>
       <node ref="J5" pin="2"/>
-      <node ref="510R2" pin="2"/>
-      <node ref="10K6" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R5" pin="2"/>
     </net>
     <net code="10" name="UART_RX/CLK">
       <node ref="JP2" pin="1"/>
+      <node ref="Q1" pin="2"/>
       <node ref="U1" pin="6"/>
       <node ref="J2" pin="3"/>
-      <node ref="Q1" pin="2"/>
     </net>
     <net code="11" name="GND">
+      <node ref="U2" pin="3"/>
+      <node ref="0.1uF2" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U4" pin="3"/>
+      <node ref="J2" pin="2"/>
+      <node ref="0.1uF3" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="J5" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="1"/>
       <node ref="R2" pin="2"/>
       <node ref="D3" pin="1"/>
-      <node ref="Q1" pin="3"/>
-      <node ref="U4" pin="3"/>
-      <node ref="0.1uF3" pin="1"/>
-      <node ref="0.1uF2" pin="1"/>
-      <node ref="U5" pin="3"/>
-      <node ref="U1" pin="8"/>
-      <node ref="U2" pin="3"/>
-      <node ref="D1" pin="1"/>
-      <node ref="J2" pin="2"/>
-      <node ref="J6" pin="1"/>
-      <node ref="0.1uF5" pin="1"/>
-      <node ref="U3" pin="5"/>
-      <node ref="D2" pin="1"/>
-      <node ref="J5" pin="1"/>
       <node ref="Q2" pin="3"/>
       <node ref="0.1uF1" pin="1"/>
       <node ref="R1" pin="2"/>
+      <node ref="0.1uF5" pin="1"/>
       <node ref="Q3" pin="3"/>
       <node ref="0.1uF4" pin="1"/>
+      <node ref="J6" pin="1"/>
       <node ref="R3" pin="2"/>
+      <node ref="U3" pin="5"/>
     </net>
-    <net code="12" name="Net-(10K5-Pad1)">
-      <node ref="10K5" pin="1"/>
+    <net code="12" name="Net-(Q3-Pad2)">
+      <node ref="R8" pin="1"/>
       <node ref="Q3" pin="2"/>
     </net>
     <net code="13" name="UART_TX/DAT">
-      <node ref="J2" pin="4"/>
-      <node ref="Q2" pin="2"/>
       <node ref="JP3" pin="1"/>
       <node ref="U1" pin="7"/>
+      <node ref="J2" pin="4"/>
+      <node ref="Q2" pin="2"/>
     </net>
-    <net code="14" name="Net-(10K1-Pad2)">
-      <node ref="J2" pin="5"/>
-      <node ref="JP1" pin="2"/>
-      <node ref="10K1" pin="2"/>
-    </net>
-    <net code="15" name="Net-(10K6-Pad2)">
-      <node ref="U3" pin="2"/>
-      <node ref="U3" pin="3"/>
-      <node ref="10K6" pin="2"/>
-      <node ref="Q3" pin="1"/>
-    </net>
-    <net code="16" name="Net-(510R3-Pad2)">
-      <node ref="510R3" pin="2"/>
-      <node ref="D2" pin="2"/>
-    </net>
-    <net code="17" name="Net-(10K5-Pad2)">
-      <node ref="JP3" pin="2"/>
-      <node ref="10K5" pin="2"/>
-      <node ref="U3" pin="4"/>
-    </net>
-    <net code="18" name="Net-(510R2-Pad1)">
+    <net code="14" name="Net-(D3-Pad2)">
       <node ref="Q2" pin="1"/>
-      <node ref="510R2" pin="1"/>
+      <node ref="R5" pin="1"/>
       <node ref="D3" pin="2"/>
     </net>
+    <net code="15" name="Net-(J2-Pad5)">
+      <node ref="JP1" pin="2"/>
+      <node ref="J2" pin="5"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="16" name="Net-(Q3-Pad1)">
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="17" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="18" name="Net-(JP3-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="JP3" pin="2"/>
+      <node ref="U3" pin="4"/>
+    </net>
     <net code="19" name="Net-(J6-Pad3)">
-      <node ref="U3" pin="7"/>
       <node ref="J6" pin="3"/>
+      <node ref="U3" pin="7"/>
     </net>
     <net code="20" name="Net-(J6-Pad2)">
       <node ref="J6" pin="2"/>
@@ -592,17 +592,17 @@
       <node ref="U3" pin="1"/>
     </net>
     <net code="22" name="MCLR">
-      <node ref="JP1" pin="1"/>
       <node ref="U1" pin="4"/>
+      <node ref="JP1" pin="1"/>
     </net>
     <net code="23" name="Net-(U1-Pad3)">
       <node ref="U5" pin="1"/>
       <node ref="U1" pin="3"/>
     </net>
-    <net code="24" name="Net-(510R1-Pad1)">
-      <node ref="D1" pin="2"/>
+    <net code="24" name="Net-(D1-Pad2)">
       <node ref="Q1" pin="1"/>
-      <node ref="510R1" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="D1" pin="2"/>
     </net>
     <net code="25" name="Net-(J2-Pad6)">
       <node ref="J2" pin="6"/>
