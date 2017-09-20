@@ -1,3 +1,5 @@
 *-cache.lib
 *.kicad_pcb-bak
 *.bak
+Archive.zip
+.DS_Store
