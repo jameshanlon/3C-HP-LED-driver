@@ -3,3 +3,6 @@
 *.bak
 Archive.zip
 .DS_Store
+PIC/nbproject/private/
+PIC/build/default/
+PIC/dist/default/
