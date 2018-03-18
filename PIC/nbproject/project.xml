@@ -3,15 +3,15 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>RGB-stacks</name>
-            <creation-uuid>9b5e58a5-5990-43dd-a99f-e211a3ee65c8</creation-uuid>
+            <name>LED-driver</name>
+            <creation-uuid>c082d577-6a57-4ce0-a184-fe604d38638e</creation-uuid>
             <make-project-type>0</make-project-type>
-            <c-extensions>c</c-extensions>
+            <c-extensions/>
             <cpp-extensions/>
             <header-extensions/>
             <asminc-extensions/>
-            <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
+            <sourceEncoding>UTF-8</sourceEncoding>
         </data>
     </configuration>
 </project>
